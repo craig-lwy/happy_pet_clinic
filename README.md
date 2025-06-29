@@ -3,21 +3,19 @@
 
 #### Table of Contents
 
-- [Happy Pet Clinic Two-Year Revenue Analysis](#happy-pet-clinic-two-year-revenue-analysis)
-      - [Table of Contents](#table-of-contents)
-  - [Project Background](#project-background)
-  - [Executive Summary](#executive-summary)
-  - [Key Insights](#key-insights)
+- [Project Background](#project-background)
+- [Executive Summary](#executive-summary)
+- [Key Insights](#key-insights)
     - [Revenue Trends and Growth Rates](#revenue-trends-and-growth-rates)
     - [Service Line and Veterinary Performance](#service-line-and-veterinary-performance)
     - [Species Distribution, Case Count and ACV](#species-distribution-case-count-and-acv)
     - [Owner Demographics and Revenue Concentration](#owner-demographics-and-revenue-concentration)
     - [Revenue By Items](#revenue-by-items)
-  - [Strategic Recommendations](#strategic-recommendations)
+- [Strategic Recommendations](#strategic-recommendations)
     - [Workforce Optimization](#workforce-optimization)
     - [Revenue Diversification](#revenue-diversification)
     - [Geographic Expansion and Pet Owner Growth](#geographic-expansion-and-pet-owner-growth)
-  - [Assumptions and Caveats](#assumptions-and-caveats)
+- [Assumptions and Caveats](#assumptions-and-caveats)
 
 ## Project Background
 
@@ -35,7 +33,7 @@ Some critical operational imbalances are identified:
 
 Strategic actions are recommended in workforce management, species diversification, and client acquisition initiatives in order to sustain growth and enhance business resilience and operational performance.
 
-> ![ERD of HPC Dataset](05_screenshots/01_ERD_hpc_v2025.06.21.png)
+> ![ERD of HPC Dataset](/05_screenshots/01_ERD_hpc_v2025.06.21.png)
 > 
 > <sup> Visual Reference: _Entity Relationship Diagram of HPC's operational dataset_ </sup>
 
@@ -49,7 +47,7 @@ Strategic actions are recommended in workforce management, species diversificati
 - **Case volume** increased by **24.3%**, while **Average Case Value (ACV)** grew modestly by **5.5%**, indicating pressure on revenue-per-case metrics.
 - Revenue composition remains stable, with approximately **60% generated from professional services** and **40% from medical products**.
 
-> ![Revenue Growth by Service](05_screenshots/02_revenue_growth_by_service.png
+> ![Revenue Growth by Service](/05_screenshots/02_revenue_growth_by_service.png
 "From tab Q1+2")
 >
 > <sup> Revenue Growth by Services </sup>
@@ -69,12 +67,12 @@ Strategic actions are recommended in workforce management, species diversificati
   - **Lee (Ophthalmology)**: Recently onboarded so limited dataset.
 - All remaining vets who maintain revenue levels at or above the average benchmark (the horizontal red line) are within acceptable parameters.
 
-> ![Ranking by Service Revenue](05_screenshots/04_rank_service.png
+> ![Ranking by Service Revenue](/05_screenshots/04_rank_service.png
 "From tab Q7_SRank")
 >
 > <sup> Ranking by Service Revenue </sup>
 
-> ![Vet Performance Scatter Plot](05_screenshots/03_scatter_graph_vet.png
+> ![Vet Performance Scatter Plot](/05_screenshots/03_scatter_graph_vet.png
 "From tab Q6_scatter")
 >
 > <sup> Vet Performance Scatter Plot </sup>
@@ -88,17 +86,17 @@ Strategic actions are recommended in workforce management, species diversificati
 - Felines consistently command higher ACV relative to canines where case volume is below 10.
 - Revenue contribution by **pet lifestage** is relatively consistent at **~HKD 4,500 per pet across canines and felines**.
 
-> ![Case Frequency & ACV](05_screenshots/05_case_freq_acv.png
+> ![Case Frequency & ACV](/05_screenshots/05_case_freq_acv.png
 "From tab Q8+9_2025")
 >
 > <sup> Case Frequency & ACV </sup>
 
-> ![Pet Species Concentration](05_screenshots/06_pet_concn.png
+> ![Pet Species Concentration](/05_screenshots/06_pet_concn.png
 "From tab pet_concn")
 >
 > <sup> Pet Species Concentration </sup>
 
-> ![Pet Lifestage Distribution](05_screenshots/07_pet_age.png
+> ![Pet Lifestage Distribution](/05_screenshots/07_pet_age.png
 "From tab Q10_age")
 >
 > <sup> Pet Lifestage Distribution </sup>
@@ -113,17 +111,17 @@ Strategic actions are recommended in workforce management, species diversificati
     - Owner <ins> C2834</ins>: Largest pet owner with **12 canines** living in **New Territory**. Moderate spending profile with **HKD 22.1k YTD** ranked 374<sup>th </sup> of 517 (higher rank higher spending).
     - Owner <ins> C5204</ins>: Top revenue contributor **HKD 122k YTD** with **a single feline** making frequent visits who also lives in **New Territory**.
 
-> ![Owner Location Distribution](05_screenshots/08_location.png
+> ![Owner Location Distribution](/05_screenshots/08_location.png
 "From tab Q11_location")
 >
 > <sup> Owner Location Distribution </sup>
 
-> ![Pet Ownership Distribution](05_screenshots/09_OCount.png
+> ![Pet Ownership Distribution](/05_screenshots/09_OCount.png
 "From tab Q13_OCount")
 >
 > <sup> Pet Ownership Distribution </sup>
 
-> ![Owners' Ranking by Revenue and Pet Count](05_screenshots/10_ORank.png
+> ![Owners' Ranking by Revenue and Pet Count](/05_screenshots/10_ORank.png
 "From tab Q12_ORank")
 >
 > <sup> Owners' Ranking by Revenue and Pet Count </sup>
@@ -160,6 +158,6 @@ _The current structure of this dimension is synthetic in nature and does not yie
 
 ---
 
-- For data cleaning methodology and records, please refer to [files in this folder](03_data_cleaning).
-- For data analysis related SQL queries and Excel workbook, please refer to [files in this folder](04_data_analysis).
-- For potential collaboration or further discussion, please contact me via my GitHub email.
+- For data cleaning methodology and records, please refer to [files in this folder](/03_data_cleaning).
+- For data analysis related SQL queries and Excel workbook, please refer to [files in this folder](/04_data_analysis).
+- For potential collaboration or further discussion, please contact me [via email](mailto:craig.lwy@gmail.com).
